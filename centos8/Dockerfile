@@ -14,7 +14,7 @@ RUN cd /etc/yum.repos.d/ && \
     gawk gcc gcc-c++ chrpath git pygtk2 bzip2 wget tar patch xz perl-Digest-SHA \
     make diffutils file which sudo time python2 python3 vim libvdpau* libdrm* \
     llvm llvm-devel.x86_64 elfutils-libelf-devel byacc flex wayland-* libXext-devel libXfixes-devel \
-    libXxf86vm-devel libXrandr-devel strace yum-utils&& \
+    libXxf86vm-devel libXrandr-devel strace yum-utils perl-Data-Dumper* && \
     useradd --home-dir /home/yongxin --uid 1000 --gid 100 --shell /bin/bash yongxin && \
     echo "yongxin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
     yum --noplugins clean all && \

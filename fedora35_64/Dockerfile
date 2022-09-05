@@ -100,7 +100,7 @@ RUN \
     echo "yongxin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
     chmod +x /usr/bin/dumb-init
 
-ENTRYPOINT ["/bin/dumb-init"]
+ENTRYPOINT ["/usr/bin/dumb-init"]
 
 USER yongxin
 

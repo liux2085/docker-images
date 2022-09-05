@@ -31,7 +31,7 @@ RUN cd /etc/yum.repos.d/ && \
     rm /usr/lib/locale/locale-archive.tmpl && \
     chmod +x /usr/bin/dumb-init
 
-ENTRYPOINT ["/bin/dumb-init"]
+ENTRYPOINT ["/usr/bin/dumb-init"]
 
 USER yongxin
 

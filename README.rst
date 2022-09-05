@@ -10,6 +10,12 @@ CentOS 8
 
     Run command: docker run -i -t -v /home/yongxin/Projects:/home/yongxin/Projects -u yongxin yx_centos8
 
+Ubuntu 20.04
+------------
+    Build command: docker build -f ./Dockerfile -t yx_ubuntu2004:latest .
+
+    Run command: docker run -i -t -v /home/yongxin/Projects:/home/yongxin/Projects -u yongxin yx_ubuntu2004
+
 Fedora 35
 ---------
     Build command: docker build -f ./Dockerfile -t yx_fedora35:latest .

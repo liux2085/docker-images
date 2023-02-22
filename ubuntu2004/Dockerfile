@@ -13,7 +13,7 @@ RUN \
     python3 python3-pip python3-pexpect debianutils iputils-ping locales \
     diffutils xz-utils make file screen sudo wget time patch openssh-client curl vim-tiny \
     iproute2 iputils-ping unzip texinfo build-essential socat python3-git python3-jinja2 libegl1-mesa \
-    pylint3 uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* && \
+    pylint3 uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /usr/share/man && \

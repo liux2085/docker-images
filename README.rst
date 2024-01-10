@@ -16,6 +16,12 @@ Ubuntu 20.04
 
     Run command: docker run -i -t -v /home/yongxin/Projects:/home/yongxin/Projects -u yongxin yx_ubuntu2004
 
+Ubuntu 22.04
+------------
+    Build command: docker build -f ./Dockerfile -t yx_ubuntu2204:latest .
+
+    Run command: docker run -i -t -v /home/yongxin/Projects:/home/yongxin/Projects -u yongxin yx_ubuntu2204
+
 Fedora 35
 ---------
     Build command: docker build -f ./Dockerfile -t yx_fedora35:latest .

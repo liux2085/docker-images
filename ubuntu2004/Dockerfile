@@ -11,8 +11,11 @@ RUN \
     diffstat subversion libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev \
     texinfo gawk gcc gcc-multilib help2man g++ git-core bash cpio python \
     python3 python3-pip python3-pexpect debianutils iputils-ping locales \
-    diffutils xz-utils make file screen sudo wget time patch openssh-client curl vim-tiny \
+    diffutils xz-utils make file screen sudo wget time patch openssh-client curl vim vim-tiny \
     iproute2 iputils-ping unzip texinfo build-essential socat python3-git python3-jinja2 libegl1-mesa \
+    nasm libxcb1 libfontconfig1 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 \
+    libxcb-shape0 libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0 libxkbcommon-x11-0 unzip build-essential \
+    iasl python-is-python3 uuid-dev nasm openssl gcc-multilib git m4 bison flex qemu-system-x86 \
     pylint3 uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \

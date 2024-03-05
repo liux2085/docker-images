@@ -16,7 +16,7 @@ RUN \
     nasm libxcb1 libfontconfig1 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 \
     libxcb-shape0 libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0 libxkbcommon-x11-0 unzip build-essential \
     iasl uuid-dev nasm openssl gcc-multilib git m4 bison flex qemu-system-x86 \
-    pylint3 uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs && \
+    pylint3 uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs zstd liblz4-tool && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /usr/share/man && \

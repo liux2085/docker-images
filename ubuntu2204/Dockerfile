@@ -19,7 +19,7 @@ RUN \
     libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0 \
     libxkbcommon-x11-0 unzip \
     build-essential iasl python-is-python3 uuid-dev nasm openssl gcc-multilib git m4 bison flex qemu-system-x86 \
-    uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs && \
+    uuid-runtime rsync libelf-dev libssl-dev bc meson flex bison libnl* git-lfs zstd liblz4-tool && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /usr/share/man && \
